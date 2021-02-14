@@ -16,7 +16,7 @@ export default ({
         {` ${formatted}`}
       </span>
       <StripeCheckout
-        name="Gatsby Store"
+        name="DigitalJet Store"
         amount={amount}
         currency={currency || 'GBP'}
         stripeKey={process.env.STRIPE_PUBLISHABLE_KEY || ''}
