@@ -5,8 +5,8 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: 'DigitalJet - Solution for all your Digital Things',
-    author: 'Parminder Sanghera',
-    description: 'A starter e-commerce site made using Gatsby.',
+    author: 'Wredman Sola',
+    description: 'Get all your digital products as cheap as penny.',
     siteUrl: 'https://parmsang.github.io/gatsby-starter-ecommerce/',
   },
   pathPrefix: '/gatsby-starter-ecommerce',
@@ -54,7 +54,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Gatsby Shop App',
+        name: 'DigitalJet Shop App',
         short_name: 'Shop App',
         start_url: '/gatsby-starter-ecommerce/',
         background_color: '#ffffff',
